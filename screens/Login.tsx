@@ -8,7 +8,7 @@ const Login: React.FC = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'Andrea79*') {
+    if (password === 'valeria') {
       setError('');
       // Redirect directly to Add Transaction as requested
       navigate('/add');
